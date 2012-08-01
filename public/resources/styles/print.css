@@ -1,0 +1,4 @@
+ul#navigation, ul#social-widgets, .sidebar .search, .sidebar .article-drawer, .page-article .about-author, .page-article .related-posts, .page-article .comments, .page-article .leave-comment, .footer, .page-article .page-article-widgets, #adflippr-ad-link{ display: none; }
+/*.header-logo h1 img{ display: block; position: relative; top: -40px; left: -135px; }*/
+/*.header-logo h1 small{ position: relative; left: 0px; top: -75px; }*/
+.page-article{ border: 0; }

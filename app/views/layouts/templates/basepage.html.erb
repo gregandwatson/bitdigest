@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+	<head>
+    <title><%= page_title %></title>
+    <%= yield :html_head %>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="resources/frameworks/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="resources/frameworks/bootstrap-xtra/bootstrap_xtra.css" rel="stylesheet">
+		<link href="resources/frameworks/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="resources/styles/styles.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" media="print" href="resources/styles/print.css" />
+
+		<script type="text/javascript" src="resources/scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="resources/frameworks/bootstrap/js/bootstrap.min.js"></script>
+
+		<script type="text/javascript" src="http://use.typekit.com/gze3jbs.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+		<script type="text/javascript">
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+			function renderPlusone() {
+		    gapi.plusone.render("plusone-div", {"size": "medium", "annotation": "inline" });
+		  }	
+		</script>
+		<script type="text/javascript">var switchTo5x=true;</script>
+		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">stLight.options({publisher: "f648b686-8d2e-47aa-93a8-360f2ff91064"});</script> 
+	</head>
+  <body>
+    <%= cms_toolbar %>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<div class="container-fluid">
+			<div class="row-fluid header">
+				<div class="span4 header-logo">
+					<img src="resources/images/bit-logo-w-tag-phrase.png" alt="" />
+					<h1><em>BIT Tech Digest</em></h1>
+				</div>
+				<div class="span4">
+					<ul id="navigation">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Categories</a></li>
+						<li><a href="#">Tags</a></li>
+						<li><a href="#">Archive</a></li>
+					</ul>
+				</div>
+				<div class="span4">
+					<ul id="social-widgets">
+						<li class="heading">Follow Us:</li>
+						<li class="twitter"><a href="#"><em>twitter</em></a></li>
+						<li class="facebook"><a href="#"><em>facebook</em></a></li>
+						<li class="sharethis"><a href="#"><em>sharethis</em></a></li>
+						<li class="yahoo"><a href="#"><em>yahoo</em></a></li>
+						<li class="rss"><a href="#"><em>rss</em></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span8 main-content">
+					<div class="row-fluid headline">
+						<div class="span12">
+							<div id="carousel" class="carousel slide">
+								<div class="carousel-inner">
+									<div class="active item">
+										<img src="resources/frameworks/bootstrap-xtra/docs/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+										<div class="carousel-caption">
+											<h1><a href="article.html" title="">Easy ways to integrate Evernote</a></h1>
+											<p class="author">By <span>Andrew Luck</span> <em class="comments"><small>6</small></em></p>
+											<p>Regardless if you’re married to your Mac, iPad, iPhone, iPod Touch or other much-needed device, one app that is a must-have to download is Evernote.</p>
+										</div>
+									</div>
+									<div class="item">
+										<img src="resources/frameworks/bootstrap-xtra/docs/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+										<div class="carousel-caption">
+											<h1><a href="article.html" title="">Choosing the best hosting company</a></h1>
+											<p class="author">By <span>Andrew Luck</span> <em class="comments"><small>6</small></em></p>
+											<p>With so many hosting options, it can be pretty difficult to decide what is best for your website.</p>
+										</div>
+									</div>
+									<div class="item">
+										<img src="resources/frameworks/bootstrap-xtra/docs/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+										<div class="carousel-caption">
+											<h1><a href="article.html" title="">The smartest phones are made of paper</a></h1>
+											<p class="author">By <span>Andrew Luck</span> <em class="comments"><small>6</small></em></p>
+											<p>Each day, we are being bombarded with more and more versions technology, grossly updated in a matter of minutes.</p>
+										</div>
+									</div>
+								</div>
+								<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+								<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="row-fluid articles">
+						<div class="span6 article-entry">
+							<h2><a href="#">Why TED-Ed Lives Up to the Hype</a></h2>
+							<p class="author">By <span>Robert Griffin III</span> <em class="comments"><small>43</small></em></p>
+							<p>It's only been a few weeks since the announcement of TED-Ed, the new platform that combines short lessons from great teachers with high quality animation to create engaging videos for modern learners. But, at a time when it seems like online learning sites are cropping up every week, TED-Ed is proving to be one that lives up to the hype.</p>
+							<div class="row-fluid and-widgets">
+								<div class="span12">
+									<ul class="social-media-widgets">
+										<li class="google-plus"><g:plusone size="medium"></g:plusone></li>
+										<li class="twitter">
+											<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.dev/article.html" data-text="Why TED-Ed Lives Up to the Hype" data-count="horizontal" data-size="medium">Tweet</a>
+											<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+										</li>
+										<li class="fb-like"><fb:like href="http://bit.dev" send="false" layout="button_count" show_faces="false" font="arial"></fb:like></li>
+										<!--
+										<span class='st_sharethis_large' displayText='ShareThis'></span>
+										<span class='st_facebook_large' displayText='Facebook'></span>
+										<span class='st_twitter_large' displayText='Tweet'></span>
+										<span class='st_linkedin_large' displayText='LinkedIn'></span>
+										<span class='st_googleplus_large' displayText='Google +'></span> 
+										-->
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="span6 article-entry right">
+							<h2><a href="#">Hire Me: The Hustle to Find Scarce Social Enterprise Jobs</a></h2>
+							<p class="author">By <span>Trent Richardson</span> <em class="comments"><small>30</small></em></p>
+							<p>In an economy that taught many the folly of greed and the value of purposeful work, social entrepreneurs represent our higher aspirations—so it's no wonder that so many people want impact jobs. Yet competition, the relative nascence of the movement, and a tough economy has made finding employment at a social venture an even riskier bet than landing work in the general job market.</p>
+							<div class="row-fluid and-widgets">
+								<div class="span12 right">
+									<ul class="social-media-widgets">
+										<li class="google-plus"><g:plusone size="medium"></g:plusone></li>
+										<li class="twitter">
+											<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.dev/article.html" data-text="Hire Me: The Hustle to Find Scarce Social Enterprise Jobs" data-count="horizontal" data-size="medium">Tweet</a>
+											<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+										</li>
+										<li class="fb-like"><fb:like href="http://bit.dev" send="false" layout="button_count" show_faces="false" font="arial"></fb:like></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row-fluid articles and-widgets" style="display:none">
+						<div class="span6 article-entry">
+							<ul class="social-media-widgets">
+								<li class="google-plus"><g:plusone size="medium"></g:plusone></li>
+								<li class="twitter">
+									<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.dev/article.html" data-text="Why TED-Ed Lives Up to the Hype" data-count="horizontal" data-size="medium">Tweet</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</li>
+								<li class="fb-like"><fb:like href="http://bit.dev" send="false" layout="button_count" show_faces="false" font="arial"></fb:like></li>
+								<!--
+								<span class='st_sharethis_large' displayText='ShareThis'></span>
+								<span class='st_facebook_large' displayText='Facebook'></span>
+								<span class='st_twitter_large' displayText='Tweet'></span>
+								<span class='st_linkedin_large' displayText='LinkedIn'></span>
+								<span class='st_googleplus_large' displayText='Google +'></span> 
+								-->
+							</ul>
+						</div>
+						<div class="span6 article-entry right">
+							<ul class="social-media-widgets">
+								<li class="google-plus"><g:plusone size="medium"></g:plusone></li>
+								<li class="twitter">
+									<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.dev/article.html" data-text="Hire Me: The Hustle to Find Scarce Social Enterprise Jobs" data-count="horizontal" data-size="medium">Tweet</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</li>
+								<li class="fb-like"><fb:like href="http://bit.dev" send="false" layout="button_count" show_faces="false" font="arial"></fb:like></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row-fluid articles">
+						<div class="span6 article-entry">
+							<h2><a href="#">Network Overload: How to Get Smart About Social Media</a></h2>
+							<p class="author">By <span>Matt Kalil</span> <em class="comments"><small>23</small></em></p>
+							<p>We are living in an era of extreme FOMO, more commonly known as Fear of Missing Out. As the tweets, Facebook status updates, check-ins, Instagram photos, and Tumblr posts pour in, it can start to feel like your friends, coworkers, and even your frenemies lead lives that are infinitely more interesting than yours. Social media is a blessing and a curse that way.</p>
+							<div class="row-fluid and-widgets">
+								<div class="span12">
+									<ul class="social-media-widgets">
+										<li class="google-plus"><g:plusone size="medium"></g:plusone></li>
+										<li class="twitter">
+											<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.dev/article.html" data-text="Network Overload: How to Get Smart About Social Media" data-count="horizontal" data-size="medium">Tweet</a>
+											<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+										</li>
+										<li class="fb-like"><fb:like href="http://bit.dev" send="false" layout="button_count" show_faces="false" font="arial"></fb:like></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="span6 article-entry right">
+							<h2><a href="#">51 Digital Media Resources You May Have Missed</a></h2>
+							<p class="author">By <span>Justin Blackmon</span> <em class="comments"><small>41</small></em></p>
+							<p>Have you spent the past week studying the nuts and bolts of the new Gmail interface? Or have you been preoccupied with the space shuttle Enterprise‘s final flight to New York City (and the absurd memes that came along with it)? For whichever reasons you missed our latest digital media resources, use our weekly features roundup to catch up in a flash.</p>
+							<div class="row-fluid and-widgets">
+								<div class="span12 right">
+									<ul class="social-media-widgets">
+										<li class="google-plus"><g:plusone size="medium"></g:plusone></li>
+										<li class="twitter">
+											<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.dev/article.html" data-text="51 Digital Media Resources You May Have Missed" data-count="horizontal" data-size="medium">Tweet</a>
+											<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+										</li>
+										<li class="fb-like"><fb:like href="http://bit.dev" send="false" layout="button_count" show_faces="false" font="arial"></fb:like></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row-fluid articles and-widgets" style="display:none">
+						<div class="span6 article-entry">
+							<ul class="social-media-widgets">
+								<li class="google-plus"><g:plusone size="medium"></g:plusone></li>
+								<li class="twitter">
+									<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.dev/article.html" data-text="Network Overload: How to Get Smart About Social Media" data-count="horizontal" data-size="medium">Tweet</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</li>
+								<li class="fb-like"><fb:like href="http://bit.dev" send="false" layout="button_count" show_faces="false" font="arial"></fb:like></li>
+							</ul>
+						</div>
+						<div class="span6 article-entry right">
+							<ul class="social-media-widgets">
+								<li class="google-plus"><g:plusone size="medium"></g:plusone></li>
+								<li class="twitter">
+									<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.dev/article.html" data-text="51 Digital Media Resources You May Have Missed" data-count="horizontal" data-size="medium">Tweet</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</li>
+								<li class="fb-like"><fb:like href="http://bit.dev" send="false" layout="button_count" show_faces="false" font="arial"></fb:like></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row-fluid column-layout">
+						<div class="span4 left">
+							<img src="resources/images/article-images/hacking-for-good.jpg" width="170px" alt="" />
+							<h2><a href="#">Hacking for Good</a></h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar, orci nec pulvinar sagittis, nisi augue ultricies magna, eget ultricies quam felis volutpat nisl. Integer sodales, risus quis facilisis bibendum, neque neque vestibulum turpis, eu sodales sapien justo vitae nisi. </p>
+							<ul class="meta-list">
+								<li><em>When:</em>April 30th, 8:00AM</li>
+								<li><em>Where:</em>WebEx</li>
+							</ul>
+						</div>
+						<div class="span4 center">
+							<img src="resources/images/article-images/forward-looking.jpg" width="170px" alt="" />
+							<h2><a href="#">Foward Looking</a></h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar, orci nec pulvinar sagittis, nisi augue ultricies magna, eget ultricies quam felis volutpat nisl. Integer sodales, risus quis facilisis bibendum, neque neque vestibulum turpis, eu sodales sapien justo vitae nisi. </p>
+							<ul class="meta-list">
+								<li><em>When:</em>May 1st, 8:00AM</li>
+								<li><em>Where:</em>Community Center</li>
+							</ul>
+						</div>
+						<div class="span4">
+							<img src="resources/images/article-images/kickstarter.jpg" width="170px" alt="" />
+							<h2><a href="#">How to get funded with Kickstarter</a></h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar, orci nec pulvinar sagittis, nisi augue ultricies magna, eget ultricies quam felis volutpat nisl. Integer sodales, risus quis facilisis bibendum, neque neque vestibulum turpis, eu sodales sapien justo. </p>
+							<ul class="meta-list">
+								<li><em>When:</em>April 30th, 8:00AM</li>
+								<li><em>Where:</em>WebEx</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row-fluid paging">
+						<div class="span3 offset8">
+							<a href="#" class="btn">Next Page &#187;</a>
+						</div>
+					</div>
+				</div>
+				<div class="span4 sidebar">
+					<div class="row-fluid">
+						<div class="span12">
+							<div id="adflippr-ad"></div>
+							<div class="search">
+								<form action="search-results.html" class="form-stacked">
+									<label for="search">Search on BIT Tech Digest</label>
+									<input type="text" name="search" placeholder="search..." />
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="article-drawer tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active" id="popular"><a href="#" data-toggle="tab">Popular</a></li>
+							<li id="recent"><a href="#" data-toggle="tab">Recent</a></li>
+							<li id="comments"><a href="#" data-toggle="tab">Comments</a></li>
+							<li id="tags"><a href="#" data-toggle="tab">Tags</a></li>
+						</ul>
+						<div class="tab-contents viewing" id="popular-contents">
+							<div class="article">
+								<img src="resources/images/article-images/1.jpg" alt="" />
+								<p><a href="#">At the White House Correspondents’ Dinner, Tech is in the House</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+							<div class="article">
+								<img src="resources/images/article-images/2.jpg" alt="" />
+								<p><a href="#">5 Tips for Great Content Curation</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+							<div class="article">
+								<img src="resources/images/article-images/3.jpg" alt="" />
+								<p><a href="#">Free Online Human Translation Service Takes On Babelfish, Google Translate</a></p>
+								<em>April 26, 2012, 2 Comments</em>
+							</div>
+							<div class="article">
+								<img src="resources/images/article-images/4.jpg" alt="" />
+								<p><a href="#">Forget Emoticons — Skype Wants You to Use ‘Humoticons’</a></p>
+								<em>April 26, 2012, 7 Comments</em>
+							</div>
+							<div class="article">
+								<img src="resources/images/article-images/5.jpg" alt="" />
+								<p><a href="#">HelloFax Turns Google Drive Into a Fax Machine</a></p>
+								<em>April 26, 2012, 13 Comments</em>
+							</div>
+							<div class="article">
+								<img src="resources/images/article-images/6.jpg" alt="" />
+								<p><a href="#">George Zimmerman’s Website Closes After He Raises $204,000</a></p>
+								<em>April 26, 2012, 22 Comments</em>
+							</div>
+						</div>
+						<div class="tab-contents" id="recent-contents" style="display:none">
+							<div class="article">
+								<p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at leo et massa dapibus consectetur.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+							<div class="article">
+								<p><a href="#">Praesent lacinia elementum hendrerit. Etiam sit amet tincidunt ligula.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+						</div>
+						<div class="tab-contents" id="comments-contents" style="display:none">
+							<div class="article">
+								<p><a href="#">Nunc vulputate adipiscing sollicitudin. Praesent quis ligula tortor.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+							<div class="article">
+								<p><a href="#">Praesent et cursus dolor. Nullam nunc ligula, rutrum eu mollis quis, vehicula vel ligula.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+							<div class="article">
+								<p><a href="#">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+						</div>
+						<div class="tab-contents" id="tags-contents" style="display:none">
+							<div class="article">
+								<p><a href="#">Nullam eget nisi mi, sit amet feugiat magna. Mauris imperdiet urna nisl.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+							<div class="article">
+								<p><a href="#">Donec odio diam, iaculis vel pellentesque a, viverra ac justo.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+							<div class="article">
+								<p><a href="#">Mauris molestie vulputate sem non convallis. Aenean commodo vehicula est, nec egestas mi gravida nec.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+							<div class="article">
+								<p><a href="#">Maecenas metus felis, tincidunt non volutpat ac, elementum id nunc. Etiam vel leo a lorem venenatis tristique a eget mauris.</a></p>
+								<em>April 26, 2012, 0 Comments</em>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	</div>
+    	<div class="footer-container">
+	    	<div class="footer">
+				<div class="row-fluid">
+					<div class="span4">
+						<h3>About BIT Tech Digest</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac leo nec sem condimentum varius. Integer iaculis vulputate convallis. Morbi luctus tempor ante a malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+						<p class="copyright">A Blacks in Technology Production &copy; 2012<br />All Rights Reserved.<p>
+		    		</div>
+		    		<div class="span4">
+		    			<ul class="footer-navigation">
+		    				<li><a href="index.html">Home</a></li>
+		    				<li><a href="#">Categories</a></li>
+		    				<li><a href="#">Tags</a></li>
+		    				<li><a href="#">Archives</a></li>
+		    			</ul>
+		    			<ul class="footer-social-widgets">
+		    				<li class="normal">Follow Us</li>
+		    				<li><a href="#"><span class="twitter"></span><em>Twitter</em></a></li>
+		    				<li><a href="#"><span class="yahoo"></span><em>Yahoo!</em></a></li>
+		    				<li><a href="#"><span class="facebook"></span><em>Facebook</em></a></li>
+		    				<li><a href="#"><span class="rss"></span><em>RSS</em></a></li>
+		    				<li><a href="#"><span class="share-this"></span><em>Share This</em></a></li>
+		    			</ul>
+		    		</div>
+		    		<div class="span4 network">
+		    			<a href="http://www.blacksintechnology.net/" title="Blacks in Technology, Bringing Unity to the Black IT Community"><img src="resources/images/bit-footer-logo.png" alt="Produced by Blacks in Technology" id="" /></a>
+		    			<a href="http://www.blosme.com" title="link to Blosme - Web Application Design and Development with C#, ASP.NET, Ruby on Rails"><img src="resources/images/blosme-logo.png" alt="Developed by Blosme" id="" /></a>
+		    		</div>
+				</div>
+	    	</div>
+    	</div>
+    	<script type="text/javascript">
+			jQuery(document).ready(function(){
+				jQuery("#carousel").carousel();
+				jQuery(".nav-tabs > li > a").click(function(e){
+					e.preventDefault();
+
+					var $this = jQuery(this), selected = $this.parent().attr("id");
+
+					if(!$this.parent().hasClass("active")){
+						$this.parent().siblings().each(function(index, item){
+							var $currentItem = jQuery(item);
+							if(jQuery(item).hasClass("active")){ $currentItem.removeClass("active"); }
+						});
+
+						$this.parent().addClass("active");
+
+						jQuery(".article-drawer").find(".viewing").hide().removeClass("viewing");
+						jQuery(".article-drawer > #" + selected + "-contents").addClass("viewing").fadeIn();
+					}
+				})
+			});
+		</script>
+
+		<script type="text/javascript">
+			(function() {
+			  var t   = document.createElement('script');
+			  t.type  = 'text/javascript';
+			  t.async = false;
+			  t.id    = 'adflippr-ads';
+			  t.setAttribute('data-site-id', '0f2f5e7d');
+			  t.src = '//blosme.com/demo/adflippr.min.js';
+			  var s = document.getElementsByTagName('script')[0];
+			  s.parentNode.insertBefore(t, s);
+			})();
+		</script>
+	</body>
+</html>
